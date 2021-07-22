@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="description" content="welcom to my web site">
+        <link rel="stylesheet" href="css/Style.css">
+        <link rel="stylesheet" href="css/jquery-ui.min.css">
+
+		<title>My Page</title>		
+	</head>
+	<body>
+        <!--******************************************************************-->
+        <div class="AJT_MDF">
+            
+            <fieldset class="">
+                <legend class="LGBack">Jeour Information</legend>
+                
+                <div>  
+                    <input type="file" id="myFileInput" accept="image/*" onchange="loadFile(event)" hidden/>
+                    
+                    <div id="Photo">
+                        +<img id="FT" width="100px" height="100px"onclick="document.getElementById('myFileInput').click()">
+                    </div>
+                </div>
+                
+                <div>
+                    <div>
+                        <label>Nom de Jeour <span>:</span></label>
+                    </div>
+                    <div>
+                        <input class="nom" id="nom" type="text">
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <label>Age <span>:</span></label>
+                    </div>
+                    <div>
+                        <input class="Age" id="Age" type="number">
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <label>Longueur en cm <span>:</span></label>
+                    </div>
+                    <div>
+                        <input class="Long" id="Long" type="number">
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <label>Avencement <span>:</span></label>
+                    </div>
+                    <div>
+                        <input class="AV" id="AV" type="number">
+                    </div>
+                </div>
+                <div>
+                    <input type="button" id="OK" value="OK"/>
+                    <input type="button" id="AN" value="Cancel"/>
+                </div>
+
+            </fieldset>
+            
+        </div>
+        <!--******************************************************************-->
+        <div class="Main" id="Main">
+            <div id="hider" class="hider">
+                <div>
+                    <span>&#9917; Dream Socer </span>
+                    <div id="block"></div>
+                    <button id="md"class="md"></button>
+                    
+                   
+                    <ul class="UL0" id="UL0">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Matches</a></li>
+                        <li><a href="#Lineup">Composition</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Help</a></li>
+                    </ul>
+                    
+                    <input type="text" name="search" placeholder="Recherche">
+                    
+                </div>
+            </div>
+            <div id="Slider" class="Slider">
+                <div id="SL" class="SL" style="background-image: url(IMG/1.jpg)"></div>
+                <div id="SL" class="SL" style="background-image: url(IMG/2.jpg)"></div>
+                <div id="SL" class="SL" style="background-image: url(IMG/3.jpg)"></div>
+                <div id="SL" class="SL" style="background-image: url(IMG/4.jpg)"></div>
+                <div id="SL" class="SL" style="background-image: url(IMG/5.jpg)"></div>
+                <div id="SL" class="SL" style="background-image: url(IMG/6.jpg)"></div>
+            </div>
+            
+            <div id="BTN1" class="BTN1">&#9664;</div>
+            <div id="BTN2" class="BTN2">&#9654;</div>
+            
+            <ul class="UL1" id="UL1"></ul>
+               
+            <div id="info" class="info">
+                <h1>Next Match</h1>
+                <h2>Barça VS Atletic.M</h2>
+                <h2 class="time" id="time"></h2>
+            </div>
+            
+        </div>
+        <!--******************************************************************-->
+        <form class="form1">
+            
+            <div class="contain" id="contain">
+                
+                
+                <div class="Menu" id="Menu">
+                    <div id="DEL" class="DEL" style="background-image: url(IMG/delete-128.ico)"></div>
+                    <div id="ADD" class="ADD" style="background-image: url(IMG/plus-2-128.ico)"></div>
+                    <div id="SEET" class="SETT" style="background-image: url(IMG/settings-13-128.ico)"></div>
+                </div>
+                
+                
+                
+                <div class="Lineup" id="Lineup">
+                    <div id="listJ" class="conect">
+
+                        <div><span><span></span></span><p class="name">Arter melo</p><p class="avence">99</p><p class="pos">---</p></div>
+                        <div><span><span></span></span><p class="name">Luis Suiarez</p><p class="avence">99</p><p class="pos">---</p></div>
+                        <div><span><span></span></span><p class="name">philip  coutinho</p><p class="avence">99</p><p class="pos">---</p></div>
+                        <div><span><span></span></span><p class="name">Lionel messi</p><p class="avence">99</p><p class="pos">---</p></div>
+                        <div><span><span></span></span><p class="name">arturo vidal</p><p class="avence">99</p><p class="pos">---</p></div>
+                        <div><span><span></span></span><p class="name">sergi bousquet</p><p class="avence">99</p><p class="pos">---</p></div>
+                        <div><span><span></span></span><p class="name">Sergi Roberto</p><p class="avence">99</p><p class="pos">---</p></div>
+                        <div><span><span></span></span><p class="name">Jordi Alba</p><p class="avence">99</p><p class="pos">---</p></div>
+                        <div><span><span></span></span><p class="name">lenglet</p><p class="avence">99</p><p class="pos">---</p></div>
+                        <div><span><span></span></span><p class="name">Jerard Pique</p><p class="avence">99</p><p class="pos">---</p></div>
+                        <div><span><span></span></span><p class="name">Ter shtigen</p><p class="avence">99</p><p class="pos">--</p></div>
+
+
+                    </div>
+                    <div class="STD">
+
+                        <div class="dir1"></div>
+                        <div class="dir2"></div>
+
+                        <div class="centre"></div>
+
+                        <div class="care1"></div>
+                        <div class="care2"></div>
+
+                        <div class="gol1"></div>
+                        <div class="gol2"></div>
+
+                        <div class="G1"></div>
+                        <div class="G2"></div>
+
+                        <div class="K1"></div>
+                        <div class="K2"></div>
+                        <div class="K3"></div>
+                        <div class="K4"></div>
+
+                        <div class="p1"></div>
+                        <div class="p2"></div>
+                        <div class="p3"></div>
+
+                    </div>
+                    <div id="stad"></div>
+
+                    <div class="Jinfo"></div>
+                </div>
+            </div>
+
+        </form>
+
+        <!--******************************************************************-->
+        
+        <div class="footer" id="footer">
+        
+            <div class="footer-left">
+
+				<h3>Walid<span>Foot</span></h3>
+
+				<p class="footer-links">
+					<a href="#">Home</a>·<a href="#">Blog</a>·<a href="#">Pricing</a>·<a href="#">About</a>·<a href="#">Faq</a>·<a href="#">Contact</a>
+				</p>
+
+				<p class="footer-COMP">Walid jennani &copy; 2019</p>
+			</div>
+
+			<div class="footer-center">
+
+				<div>
+					<img src="IMG/map.ico">
+					<p><span>2013 Hay Najd</span> Oujda, Maroc</p>
+				</div>
+
+				<div>
+					<img src="IMG/fn.ico">
+					<p>+212 0635316658</p>
+				</div>
+
+				<div>
+					<img src="IMG/email.ico">
+					<p><a href="#">support@company.com</a></p>
+				</div>
+
+			</div>
+
+			<div class="footer-right">
+
+				<p class="fouter-info">
+					<span>About the company</span>
+					Lorem ipsum dolor sit amet, consectateur adispicing elit. Fusce euismod convallis velit, eu auctor lacus vehicula sit amet.
+				</p>
+
+				<div class="footer-icons">
+
+					<a href="#"><img src="IMG/fb.ico"></a>
+					<a href="#"><img src="IMG/twitter.ico"></a>
+					<a href="#"><img src="IMG/yt.ico"></a>
+					<a href="#"><img src="IMG/inst.ico"></a>
+
+				</div>
+
+			</div>
+        </div>
+        
+        <script src="js/JQUERY_FOLDER/jQuery-3.3.1.js"></script>
+        <script src="js/Script.js"></script>
+        <script src="js/jquery-ui.min.js"></script>
+	</body>
+</html>

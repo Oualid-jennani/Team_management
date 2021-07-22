@@ -1,0 +1,159 @@
+body{margin: 0;padding: 0;zoom:95%;}
+
+/************************************************************************************************************/
+.Main{margin: auto;width: 100%;height: 700px;position: relative;}
+
+.hider{width: 100%;background-color: rgba(0, 0, 0, 0.7);position: absolute;top:50px;z-index: 2;}
+.hider div {width: 100%;height: 100%;}
+.hider span{font-size: 200%;color: chartreuse;font-family: sans-serif;display: inline;width: 245px;padding: 0}
+
+.md{width: 35px;height: 30px;background-color:rgba(0, 0, 0, 0.4);border: 2px solid yellow;border-radius: 3px;background-image: url(../IMG/menu.ico);background-size: 65%;background-repeat: no-repeat;background-position: center;cursor: pointer;float: right;margin: 10px;display: none}
+
+#block{display: inline}
+
+input[name="search"]{width: 195px; box-sizing: border-box;border: 2px solid yellow;border-radius: 4px;font-size: 16px; background-color: rgba(0, 0, 0, 0.4);color: white; background-image: url('../IMG/searchicon.ico');background-position: 7px 7px; background-repeat: no-repeat;padding: 7px 5px 5px 40px; float: right;margin: 10px}
+
+.UL0{ padding: 0;margin-right: 0;margin-bottom: 0;margin-top: 10px;display: inline-block;float: right;overflow: hidden}
+.UL0 li a{list-style: none;text-decoration: none;color: white}
+.UL0 li{ float: left; list-style: none; border-radius: 5px;margin: 5px;cursor: pointer; font-family: sans-serif;font-weight: bold;padding: 5px;
+transition-property:transform,padding;transition-duration: 0.2s;transition-timing-function: ease-out;}
+.UL0 li:hover{background-color: yellow;}
+.UL0 li:hover a{color: black;}
+.info{width: 300px;height: 200px;background-color: rgba(0, 0, 0, 0.4);position: absolute;bottom:100px;left: 15%;z-index: 2;border-radius: 20px;transition-property: transform,left;transition-duration: 2s;}
+h1{color: white;margin: 30px;font-family: sans-serif}h2{color: white;margin: 30px;font-family: sans-serif;text-align: center;opacity: 0.8}
+
+.Slider{margin: auto;width: 100%;height: 100%;position: relative;text-align: center;background-color: black}
+.SL{ margin: auto;width: 100%;height: 100%; position: absolute;background-repeat: no-repeat;background-size: cover;background-position: center;
+transition-property:transform,opacity,width,height,left,top; transition-duration: 0.5s;transition-timing-function: ease;}
+
+.BTN1,.BTN2{margin: 0px; position: absolute;top: 50% ;width: 55px;height: 55px;font-size: 250%;border: none;color: white;cursor: pointer;border-radius: 100%;text-align: center;opacity: 0.5;padding-top:6px;transition-property: color;transition-duration: 1s;}
+.BTN1{left: 2px;padding-right: 5px;}.BTN2{right: 2px;padding-left: 5px;}
+.BTN1:hover,.BTN2:hover{background-color: rgba(0, 0, 0, 0.7);opacity: 1;color: chartreuse}
+
+.UL1{position: absolute;bottom: 2%;right: 10%; padding: 0;opacity:0.8 }
+.UL1 li{ border: 1px black solid; background-color: white; width: 10px; height: 50px;float: left; list-style: none; margin: 5px;border-radius: 15%;cursor: pointer}
+
+/************************************************************************************************************/
+
+
+.contain{background-color: yellow;overflow: hidden;}
+.contain >div{float: left}
+
+.Menu{background-color: yellow;min-width:300px;min-height: 300px;margin: 30px;margin-right: 100px}
+.Menu div{width: 70px;height: 70px;position: relative;display: inline-block;margin: 25px;background-repeat: no-repeat;background-size: 80%;border-radius: 10px;background-position: center}
+
+
+.Lineup{background-color: black;min-width: 970px;height: 1160px;border-radius: 10px;margin: 30px;;position: relative}
+.Lineup >div{float: left}
+
+#stad{width: 650px;height: 800px;background-color: green;margin: 30px auto;border: 3px solid white;}
+
+#listJ{width: 223.5px;height: 1100px;background-color: white;margin: 30px;position: relative;}
+#listJ div{width: 200px;height: 40px;cursor: pointer;z-index: 3;padding: 0;border: 2px solid black;position: absolute;border-radius: 5px;margin: 10px;margin-right:-100px;}
+#listJ div span{position: relative;overflow: hidden;top: 0px;}
+#listJ div p{position: absolute;padding: 0;margin: 0;}
+
+.name{width: 150px;right: 0px;top: 0px;font-size: 120%;font-family: sans-serif;color: white;}
+.avence{right: 30px;bottom: 2px;font-family: sans-serif;font-size: 80%;text-align: center;color:red;background-color: black;border-radius: 5px;padding: 5px;width: 40px;font-weight: bold;letter-spacing: 1.5px}
+.pos{right: 85px;bottom: 2px;font-family: sans-serif;font-size: 80%;text-align: center;color:chartreuse;background-color: black;border-radius: 5px;padding: 5px;width: 50px;font-weight: bold;letter-spacing: 1.5px}
+
+#listJ div span span{width: 50px;height: 40px;position: absolute;background-image: url(../Joeur/1.png);background-size: 100%;background-repeat: no-repeat;left: 5px;}
+
+.STD{position: absolute;width: 651px;height: 800px;top:33px;right: 33px}
+
+
+/************************************************************************************************************/
+
+
+.dir1,.dir2{width: 99%;height: 49.25%;border: 3px solid white;}
+.centre{position:absolute;width: 150px;height: 150px;border: 6px solid white ;border-radius: 100%;top:319px;left: 240px}
+.care1{position:absolute;width: 320px;height: 130px;border: 6px solid white ;border-top: 3px solid white;top:0px;left: 157px;background-color: green;z-index: 1}
+.care2{position:absolute;width: 320px;height: 130px;border: 6px solid white ;border-bottom: 3px solid white;bottom:0px;left: 157px;background-color: green;z-index: 1}
+
+.gol1{position:absolute;width: 150px;height: 40px;border: 6px solid white ;border-top: none;top:0px;left: 242px;z-index: 1}
+.gol2{position:absolute;width: 150px;height: 40px;border: 6px solid white ;border-bottom: none;bottom:0px;left: 242px;;z-index: 1}
+
+.G1{position:absolute;width: 150px;height: 150px;border: 6px solid white ;border-bottom-left-radius: 100%;border-bottom-right-radius: 100%;top:25px;left:242px}
+.G2{position:absolute;width: 150px;height: 150px;border: 6px solid white ;border-top-left-radius: 100%;border-top-right-radius: 100%;bottom:25px;left: 242px}
+
+.K1{position: absolute;width: 13px;height: 13px;border-bottom-right-radius: 100%;border: 3px solid white;top:0px;left: 0px}
+.K2{position: absolute;width: 13px;height: 13px;border-bottom-left-radius: 100%;border: 3px solid white;top:0px;right: 0px}
+.K3{position: absolute;width: 13px;height: 13px;border-top-left-radius: 100%;border: 3px solid white;bottom:0px;right: 0px}
+.K4{position: absolute;width: 13px;height: 13px;border-top-right-radius: 100%;border: 3px solid white;bottom:0px;left: 0px}
+
+.p1{position: absolute;width: 5px;height: 5px;border-radius: 100%;top:93px;left: 317px;background-color: white;z-index: 1}
+.p2{position: absolute;width: 15px;height: 15px;border-radius: 100%;top:393px;left: 312px;background-color: white}
+.p3{position: absolute;width: 5px;height: 5px;border-radius: 100%;bottom:93px;left: 317px;background-color: white;z-index: 1}
+
+
+.Jinfo{width: 687px;height: 200px;background-color: white;position: absolute;bottom: 30px;right: 30px}
+
+
+
+
+
+
+
+
+
+
+
+
+.AJT_MDF{width: 100%;height: 100%;position: fixed;z-index: 20;display: none}
+.AJT_MDF fieldset{background: rgba( 0, 0, 0, 0.9 );border:2px solid yellow;padding:20px;width:400px;height: 400px;margin:20px auto;border-radius :10px;margin-top: 200px}
+.AJT_MDF legend{background-color: #000;color: white;border:2px solid yellow;padding:5px;border-radius :5px;font-size: 130% }
+.AJT_MDF input[type="text"],input[type="number"]{padding:7px; width:100%;margin-bottom:10px;border-radius: 4px }
+.AJT_MDF fieldset > div>div{width: 45%;display: inline-grid;}
+.AJT_MDF fieldset > div>div+div{width: 50%}
+.AJT_MDF fieldset > div{margin: auto;}
+.AJT_MDF fieldset :nth-child(2){text-align: center;}
+.AJT_MDF fieldset :nth-child(2) > div{width: 100px;height: 100px;margin: 20px}
+.AJT_MDF label{margin-bottom:10px;width: 100%} 
+.AJT_MDF fieldset > div>div>label{font-size: 130%;white-space:nowrap;color: white}
+.AJT_MDF fieldset > div>div>label span{float: right;margin-right: 20px}
+
+
+#FT{margin: auto;position: absolute }
+#OK{border: none;border-radius: 5px;background-color: yellow;color: black;font-size: 150%;width: 100px;font-weight: bold;margin: auto;margin-left: 80px;cursor: pointer}
+#AN{border: none;border-radius: 5px;background-color: yellow;color: black;font-size: 150%;width: 100px;font-weight: bold;margin: 10px auto;margin-left: 26px;cursor: pointer}
+
+
+
+
+
+
+
+
+/************************************************************************************************************/
+
+.footer{background-color: #292c2f;text-align: left;font: bold 16px sans-serif;padding: 55px 40px;overflow: hidden}
+
+.footer-left,.footer-center,.footer-right{float: left;}
+
+/* Footer left */
+
+.footer .footer-left{width: 35%;}
+.footer-links a{display:inline-block;line-height: 1.8;text-decoration: none;color:  inherit;}
+.footer-links{color:  #ffffff;margin: 20px 0 12px;padding: 0;}
+.footer h3{color: #ffffff;font: normal 36px cursive;margin: 0;}
+.footer h3 span{color:  yellow;}
+.footer-COMP{color:  #8f9296;font-size: 14px;font-weight: normal;margin: 0;}
+
+/* Footer Center */
+
+.footer .footer-center{width: 35%;}
+.footer .footer-center p span{display:block;font-weight: normal;font-size:14px;line-height:2;}
+.footer-center div{margin-bottom: 20px;overflow: hidden}
+.footer-center div p{display: inline;color: white;margin: 0px;float: right;width: 90%}
+.footer-center div img{}
+.footer-center div p a{list-style: none;color: white;text-decoration: none}
+
+/* Footer Right */
+
+.footer-right{width: 20%;}
+.fouter-info span{display: block;color:  #ffffff;font-size: 14px;font-weight: bold;margin-bottom: 20px;}
+.fouter-info{line-height: 20px;color: #92999f;font-size: 13px;font-weight: normal;	margin: 0;}
+.footer-icons{padding-top: 20px}
+.footer-icons a{margin-right: 10px}
+
+
